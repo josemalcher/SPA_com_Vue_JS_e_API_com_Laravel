@@ -120,7 +120,8 @@ https://www.udemy.com/course/spa-com-vue-js/
 
 ## <a name="parte2">2 - 2. Instalando o Vue CLI</a>
 
-
+- [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
+- [https://cli.vuejs.org/guide/installation.html](https://cli.vuejs.org/guide/installation.html)
 
 [Voltar ao Índice](#indice)
 
