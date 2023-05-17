@@ -1,23 +1,20 @@
 <template>
-  <div class="" id="app">
-    <nav>
-      <div class="nav-wrapper container">
-        <a href="#" class="brand-logo">Logo</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">JavaScript</a></li>
-        </ul>
-      </div>
-    </nav>
+  <div id="app">
+    <NavBar cor="green" url="####" logo="Logo so Site Aqui" />
 
     <router-view/>
   </div>
 </template>
 
 <script>
+import NavBar from "./components/layout/NavBar.vue";
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    NavBar
+
+  }
 }
 </script>
 
