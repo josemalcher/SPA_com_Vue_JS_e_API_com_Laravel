@@ -1,5 +1,5 @@
 <template>
-  <span>
+  <SiteTemplate>
     <PublicarConteudoVue/>
 
     <CardConteudoVue
@@ -13,10 +13,12 @@
         txt="I am a very simple card. I am good at containing small bits of information."
       />
     </CardConteudoVue>
-  </span>
+
+  </SiteTemplate>
 </template>
 
 <script>
+import SiteTemplate from "../../templates/SiteTemplate.vue";
 import CardConteudoVue from '@/components/social/CardConteudoVue.vue';
 import CardDetalheVue from '@/components/social/CardDetalheVue.vue';
 import PublicarConteudoVue from "@/components/social/PublicarConteudoVue.vue";
@@ -24,6 +26,7 @@ import PublicarConteudoVue from "@/components/social/PublicarConteudoVue.vue";
 export default {
   name: "Home",
   components: {
+    SiteTemplate,
     CardConteudoVue,
     CardDetalheVue,
     PublicarConteudoVue
