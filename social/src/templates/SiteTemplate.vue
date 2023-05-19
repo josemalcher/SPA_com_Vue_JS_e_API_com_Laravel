@@ -1,32 +1,22 @@
 <template>
   <span>
     <header>
-      <NavBar cor="green darken-1" url="####" logo="Logo so Site Aqui"/>
+      <NavBar cor="green darken-1" url="/" logo="Logo so Site Aqui">
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/login">Login</router-link></li>
+      </NavBar>
     </header>
     <main>
       <div class="container">
         <div class="row">
           <GridVue tamanho="4">
             <CardMenuVue>
-              <div class="row valign-wrapper">
-                <GridVue tamanho="4">
-                  <img src="https://materializecss.com/images/yuna.jpg" alt="" class="circle responsive-img">
-                  <!-- notice the "circle" class -->
-                </GridVue>
-                <GridVue tamanho="8">
-                  <span class="black-text"><h5>Maria Jozefina</h5>This is a square image</span>
-                </GridVue>
-              </div>
-            </CardMenuVue>
-            <CardMenuVue>
-              <h3>TESTE</h3>
+              <slot name="menuesquerdo"/>
             </CardMenuVue>
           </GridVue>
 
           <GridVue tamanho="8">
-
-            <slot/>
-
+            <slot name="principal"/>
           </GridVue>
         </div>
       </div>

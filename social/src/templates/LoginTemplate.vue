@@ -1,21 +1,25 @@
 <template>
   <span>
     <header>
-      <NavBar cor="green darken-1" url="####" logo="Logo so Site Aqui"/>
+      <NavBar cor="green darken-1" url="/" logo="Logo so Site Aqui">
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/login">Login</router-link></li>
+      </NavBar>
     </header>
     <main>
       <div class="container">
         <div class="row">
           <GridVue tamanho="6">
-            <CardMenuVue>
 
+            <CardMenuVue>
+              <slot name="menuesquerdo"/>
             </CardMenuVue>
 
           </GridVue>
 
           <GridVue tamanho="6">
 
-            <slot/>
+            <slot name="principal"/>
 
           </GridVue>
         </div>
