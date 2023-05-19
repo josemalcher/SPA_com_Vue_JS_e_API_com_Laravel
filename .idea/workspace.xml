@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c08b133c-b6d6-4d3f-b857-1f2a86b84f7b" name="Changes" comment="19. Sistema de Templates">
+    <list default="true" id="c08b133c-b6d6-4d3f-b857-1f2a86b84f7b" name="Changes" comment="22. Url Amigáveis no Vue JS">
+      <change afterPath="$PROJECT_DIR$/social/src/pages/cadastro/Cadastro.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/src/components/layout/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/components/layout/NavBar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/src/pages/home/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/pages/home/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/social/src/pages/login/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/pages/login/Login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/social/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/social/src/templates/LoginTemplate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/templates/LoginTemplate.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/src/templates/SiteTemplate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/templates/SiteTemplate.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +60,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="\\wsl$\Ubuntu-22.04\home\josemalcher\workspaces\SPA_com_Vue_JS_e_API_com_Laravel\social\src\templates" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-22.04\home\josemalcher\workspaces\SPA_com_Vue_JS_e_API_com_Laravel\social\src\pages\cadastro" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684496120874</updated>
       <workItem from="1684496121908" duration="9320000" />
-      <workItem from="1684514566582" duration="3109000" />
+      <workItem from="1684514566582" duration="5647000" />
     </task>
     <task id="LOCAL-00001" summary="16. Componente de detalhe do conteúdo">
       <created>1684505184296</created>
@@ -95,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684508287831</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="22. Url Amigáveis no Vue JS">
+      <created>1684524634641</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684524634641</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +126,8 @@
     <MESSAGE value="16. Componente de detalhe do conteúdo" />
     <MESSAGE value="18. Componente de Publicar Conteúdos" />
     <MESSAGE value="19. Sistema de Templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="19. Sistema de Templates" />
+    <MESSAGE value="22. Url Amigáveis no Vue JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="22. Url Amigáveis no Vue JS" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

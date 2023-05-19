@@ -4,6 +4,7 @@
       <NavBar cor="green darken-1" url="/" logo="Logo so Site Aqui">
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/login">Login</router-link></li>
+        <li><router-link to="/cadastro">Cadastre-se</router-link></li>
       </NavBar>
     </header>
     <main>
