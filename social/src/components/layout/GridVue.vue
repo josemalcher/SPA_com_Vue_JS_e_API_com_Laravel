@@ -11,8 +11,5 @@
 export default ({
   name: "GridVue",
   props: ['tamanho'],
-  data(){
-
-  }
 })
 </script>

@@ -41,18 +41,19 @@
 </template>
 
 <script>
-import NavBar from "./components/layout/NavBar.vue";
-import FooterVue from "./components/layout/FooterVue.vue";
-import GridVue from "./components/layout/GridVue.vue";
-import CardMenuVue from "./components/layout/CardMenuVue.vue";
+import NavBar from "@/components/layout/NavBar.vue";
+import FooterVue from "@/components/layout/FooterVue.vue";
+import GridVue from "@/components/layout/GridVue.vue";
+import CardMenuVue from "@/components/layout/CardMenuVue.vue";
+
 
 export default {
   name: 'App',
   components: {
+    GridVue,
     NavBar,
     FooterVue,
-    GridVue,
-    CardMenuVue
+    CardMenuVue,
   }
 }
 </script>
