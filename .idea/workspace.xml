@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c08b133c-b6d6-4d3f-b857-1f2a86b84f7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/social/src/components/social/CardConteudoVue.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/social/src/components/social/CardDetalheVue.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SPA_com_Vue_JS_e_API_com_Laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SPA_com_Vue_JS_e_API_com_Laravel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/src/components/layout/GridVue.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/components/layout/GridVue.vue" afterDir="false" />
+    <list default="true" id="c08b133c-b6d6-4d3f-b857-1f2a86b84f7b" name="Changes" comment="16. Componente de detalhe do conteúdo">
+      <change afterPath="$PROJECT_DIR$/social/src/components/social/PublicarConteudoVue.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/src/components/social/CardConteudoVue.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/components/social/CardConteudoVue.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/social/src/pages/home/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/pages/home/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="josemalcher &lt;contato@josemalcher.net&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -51,6 +50,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -62,11 +62,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684496120874</updated>
-      <workItem from="1684496121908" duration="5523000" />
+      <workItem from="1684496121908" duration="7704000" />
     </task>
+    <task id="LOCAL-00001" summary="16. Componente de detalhe do conteúdo">
+      <created>1684505184296</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684505184296</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="16. Componente de detalhe do conteúdo" />
+    <option name="LAST_COMMIT_MESSAGE" value="16. Componente de detalhe do conteúdo" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
