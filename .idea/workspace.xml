@@ -4,12 +4,93 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c08b133c-b6d6-4d3f-b857-1f2a86b84f7b" name="Changes" comment="22. Url Amigáveis no Vue JS">
-      <change afterPath="$PROJECT_DIR$/social/src/pages/cadastro/Cadastro.vue" afterDir="false" />
+    <list default="true" id="c08b133c-b6d6-4d3f-b857-1f2a86b84f7b" name="Changes" comment="24. Url Amigável para Login e Cadastro">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/84033ddd-54dd-4154-b767-db09c0bcb6ce.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/84033ddd-54dd-4154-b767-db09c0bcb6ce/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/84033ddd-54dd-4154-b767-db09c0bcb6ce/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/ValidateSignature.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/config/sanctum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/database/migrations/2014_10_12_100000_create_password_reset_tokens_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/larawebservice/vite.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/src/pages/login/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/pages/login/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/src/templates/LoginTemplate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/templates/LoginTemplate.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +123,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-22.04/home/josemalcher/workspaces/SPA_com_Vue_JS_e_API_com_Laravel/social/src/templates&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "//wsl$/Ubuntu-22.04/home/josemalcher/workspaces/SPA_com_Vue_JS_e_API_com_Laravel/social/src/templates",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="\\wsl$\Ubuntu-22.04\home\josemalcher\workspaces\SPA_com_Vue_JS_e_API_com_Laravel\social\src\templates" />
@@ -73,7 +159,9 @@
       <option name="presentableId" value="Default" />
       <updated>1684496120874</updated>
       <workItem from="1684496121908" duration="9320000" />
-      <workItem from="1684514566582" duration="5647000" />
+      <workItem from="1684514566582" duration="6276000" />
+      <workItem from="1684533802602" duration="852000" />
+      <workItem from="1684612012217" duration="2903000" />
     </task>
     <task id="LOCAL-00001" summary="16. Componente de detalhe do conteúdo">
       <created>1684505184296</created>
@@ -103,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684524634641</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="24. Url Amigável para Login e Cadastro">
+      <created>1684527142051</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684527142051</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +222,8 @@
     <MESSAGE value="18. Componente de Publicar Conteúdos" />
     <MESSAGE value="19. Sistema de Templates" />
     <MESSAGE value="22. Url Amigáveis no Vue JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="22. Url Amigáveis no Vue JS" />
+    <MESSAGE value="24. Url Amigável para Login e Cadastro" />
+    <option name="LAST_COMMIT_MESSAGE" value="24. Url Amigável para Login e Cadastro" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
