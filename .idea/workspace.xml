@@ -4,93 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c08b133c-b6d6-4d3f-b857-1f2a86b84f7b" name="Changes" comment="24. Url Amigável para Login e Cadastro">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/84033ddd-54dd-4154-b767-db09c0bcb6ce.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/84033ddd-54dd-4154-b767-db09c0bcb6ce/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/84033ddd-54dd-4154-b767-db09c0bcb6ce/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/TrustHosts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/ValidateSignature.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/config/cors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/config/sanctum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/database/migrations/2014_10_12_100000_create_password_reset_tokens_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/resources/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/larawebservice/vite.config.js" afterDir="false" />
+    <list default="true" id="c08b133c-b6d6-4d3f-b857-1f2a86b84f7b" name="Changes" comment="26. Configurando a Autenticação via Token COM SANCTUM">
+      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SPA_com_Vue_JS_e_API_com_Laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SPA_com_Vue_JS_e_API_com_Laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84033ddd-54dd-4154-b767-db09c0bcb6ce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84033ddd-54dd-4154-b767-db09c0bcb6ce.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/larawebservice/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/larawebservice/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/larawebservice/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -118,30 +39,142 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/larawebservice/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/league/config" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/spatie/laravel-ignition" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/spatie/ignition" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/spatie/flare-client-php" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/spatie/backtrace" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="2Q0gscXtuSECM8nsX6tbU8UeLe1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "//wsl$/Ubuntu-22.04/home/josemalcher/workspaces/SPA_com_Vue_JS_e_API_com_Laravel/social/src/templates",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-22.04/home/josemalcher/workspaces/SPA_com_Vue_JS_e_API_com_Laravel/social/src/templates&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="\\wsl$\Ubuntu-22.04\home\josemalcher\workspaces\SPA_com_Vue_JS_e_API_com_Laravel\social\src\templates" />
@@ -149,6 +182,12 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="\\wsl$\Ubuntu-22.04\home\josemalcher\workspaces\SPA_com_Vue_JS_e_API_com_Laravel\social\src\pages\cadastro" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -161,7 +200,9 @@
       <workItem from="1684496121908" duration="9320000" />
       <workItem from="1684514566582" duration="6276000" />
       <workItem from="1684533802602" duration="852000" />
-      <workItem from="1684612012217" duration="2903000" />
+      <workItem from="1684612012217" duration="3528000" />
+      <workItem from="1684677414796" duration="1586000" />
+      <workItem from="1684753530097" duration="10381000" />
     </task>
     <task id="LOCAL-00001" summary="16. Componente de detalhe do conteúdo">
       <created>1684505184296</created>
@@ -198,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684527142051</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="26. Configurando a Autenticação via Token COM SANCTUM">
+      <created>1684631648580</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684631648580</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +271,8 @@
     <MESSAGE value="19. Sistema de Templates" />
     <MESSAGE value="22. Url Amigáveis no Vue JS" />
     <MESSAGE value="24. Url Amigável para Login e Cadastro" />
-    <option name="LAST_COMMIT_MESSAGE" value="24. Url Amigável para Login e Cadastro" />
+    <MESSAGE value="26. Configurando a Autenticação via Token COM SANCTUM" />
+    <option name="LAST_COMMIT_MESSAGE" value="26. Configurando a Autenticação via Token COM SANCTUM" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
