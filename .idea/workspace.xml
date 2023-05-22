@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c08b133c-b6d6-4d3f-b857-1f2a86b84f7b" name="Changes" comment="26. Configurando a Autenticação via Token COM SANCTUM">
-      <change afterPath="$PROJECT_DIR$/larawebservice/app/Http/Controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SPA_com_Vue_JS_e_API_com_Laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SPA_com_Vue_JS_e_API_com_Laravel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84033ddd-54dd-4154-b767-db09c0bcb6ce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84033ddd-54dd-4154-b767-db09c0bcb6ce.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="c08b133c-b6d6-4d3f-b857-1f2a86b84f7b" name="Changes" comment="32. Método de Login na API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/larawebservice/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/larawebservice/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/social/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/social/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/src/pages/login/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/pages/login/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/social/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Template Básico" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -156,25 +156,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-22.04/home/josemalcher/workspaces/SPA_com_Vue_JS_e_API_com_Laravel/social/src/templates&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "//wsl$/Ubuntu-22.04/home/josemalcher/workspaces/SPA_com_Vue_JS_e_API_com_Laravel/social/src/templates",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2023.1.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="\\wsl$\Ubuntu-22.04\home\josemalcher\workspaces\SPA_com_Vue_JS_e_API_com_Laravel\social\src\templates" />
@@ -202,7 +203,7 @@
       <workItem from="1684533802602" duration="852000" />
       <workItem from="1684612012217" duration="3528000" />
       <workItem from="1684677414796" duration="1586000" />
-      <workItem from="1684753530097" duration="10381000" />
+      <workItem from="1684753530097" duration="14286000" />
     </task>
     <task id="LOCAL-00001" summary="16. Componente de detalhe do conteúdo">
       <created>1684505184296</created>
@@ -246,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684631648580</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="32. Método de Login na API">
+      <created>1684789315509</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684789315510</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +280,8 @@
     <MESSAGE value="22. Url Amigáveis no Vue JS" />
     <MESSAGE value="24. Url Amigável para Login e Cadastro" />
     <MESSAGE value="26. Configurando a Autenticação via Token COM SANCTUM" />
-    <option name="LAST_COMMIT_MESSAGE" value="26. Configurando a Autenticação via Token COM SANCTUM" />
+    <MESSAGE value="32. Método de Login na API" />
+    <option name="LAST_COMMIT_MESSAGE" value="32. Método de Login na API" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
