@@ -120,6 +120,7 @@
       <path value="$PROJECT_DIR$/larawebservice/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/larawebservice/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/larawebservice/vendor/composer" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/lucascudo/laravel-pt-br-localization" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1">

@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c08b133c-b6d6-4d3f-b857-1f2a86b84f7b" name="Changes" comment="32. Método de Login na API">
+    <list default="true" id="c08b133c-b6d6-4d3f-b857-1f2a86b84f7b" name="Changes" comment="33. Http com Axios no Vue JS">
+      <change beforePath="$PROJECT_DIR$/.idea/SPA_com_Vue_JS_e_API_com_Laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SPA_com_Vue_JS_e_API_com_Laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/social/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/social/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/larawebservice/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/larawebservice/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/larawebservice/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/larawebservice/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/larawebservice/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/larawebservice/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/social/src/pages/login/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/pages/login/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/social/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +151,7 @@
       <path value="$PROJECT_DIR$/larawebservice/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/larawebservice/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/larawebservice/vendor/composer" />
+      <path value="$PROJECT_DIR$/larawebservice/vendor/lucascudo/laravel-pt-br-localization" />
     </include_path>
   </component>
   <component name="ProjectId" id="2Q0gscXtuSECM8nsX6tbU8UeLe1" />
@@ -203,7 +206,7 @@
       <workItem from="1684533802602" duration="852000" />
       <workItem from="1684612012217" duration="3528000" />
       <workItem from="1684677414796" duration="1586000" />
-      <workItem from="1684753530097" duration="14286000" />
+      <workItem from="1684753530097" duration="16510000" />
     </task>
     <task id="LOCAL-00001" summary="16. Componente de detalhe do conteúdo">
       <created>1684505184296</created>
@@ -254,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684789315510</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="33. Http com Axios no Vue JS">
+      <created>1684799855875</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684799855875</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +291,8 @@
     <MESSAGE value="24. Url Amigável para Login e Cadastro" />
     <MESSAGE value="26. Configurando a Autenticação via Token COM SANCTUM" />
     <MESSAGE value="32. Método de Login na API" />
-    <option name="LAST_COMMIT_MESSAGE" value="32. Método de Login na API" />
+    <MESSAGE value="33. Http com Axios no Vue JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="33. Http com Axios no Vue JS" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

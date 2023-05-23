@@ -41,8 +41,15 @@ export default {
         password: this.password
       }).then(response => {
         console.log(response)
+        if (response.data.token) {
+          console.log('LOGIN COM SUCESSO!!')
+        }else if (response.data.status === false) {
+          console.log('Login não Existe')
+        }else{
+          console.log('ERRO de VALIDAÇÃO')
+        }
       }).catch(e => {
-        this.errors.push(e)
+        console.log(e)
       });
 
 
