@@ -3,8 +3,10 @@
     <header>
       <NavBar cor="green darken-1" url="/" logo="Logo so Site Aqui">
         <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/login">Login</router-link></li>
-        <li><router-link to="/cadastro">Cadastre-se</router-link></li>
+        <li v-if="!usuario"><router-link to="/login">Login</router-link></li>
+        <li v-if="!usuario"><router-link to="/cadastro">Cadastre-se</router-link></li>
+        <li v-if="usuario"><router-link to="#">{{ usuario.name }}</router-link></li>
+        <li v-if="usuario"><a v-on:click="sair()">Sair</a></li>
       </NavBar>
     </header>
     <main>
@@ -46,11 +48,29 @@ import CardMenuVue from "@/components/layout/CardMenuVue.vue";
 
 export default {
   name: 'LoginTemplate',
+  data(){
+    return{
+      usuario: false
+    }
+  },
   components: {
     GridVue,
     NavBar,
     FooterVue,
     CardMenuVue,
+  },
+  created() {
+    let usuario = sessionStorage.getItem('user');
+    if (usuario) {
+      this.usuario = JSON.parse(usuario);
+      // console.log(usuario)
+    }
+  },
+  methods:{
+    sair() {
+      sessionStorage.clear();
+      this.usuario = false;
+    },
   }
 }
 </script>
