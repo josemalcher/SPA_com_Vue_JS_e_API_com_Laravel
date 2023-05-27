@@ -48,8 +48,8 @@ import CardMenuVue from "@/components/layout/CardMenuVue.vue";
 
 export default {
   name: 'LoginTemplate',
-  data(){
-    return{
+  data() {
+    return {
       usuario: false
     }
   },
@@ -63,10 +63,11 @@ export default {
     let usuario = sessionStorage.getItem('user');
     if (usuario) {
       this.usuario = JSON.parse(usuario);
+      this.$router.push('/');
       // console.log(usuario)
     }
   },
-  methods:{
+  methods: {
     sair() {
       sessionStorage.clear();
       this.usuario = false;
