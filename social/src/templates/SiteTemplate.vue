@@ -4,7 +4,7 @@
       <NavBar cor="green darken-1" url="/" logo="Logo so Site Aqui">
         <li v-if="!usuario"><router-link to="/login">Login</router-link></li>
         <li v-if="!usuario"><router-link to="/cadastro">Cadastre-se</router-link></li>
-        <li v-if="usuario"><router-link to="#">{{ usuario.name }}</router-link></li>
+        <li v-if="usuario"><router-link to="/perfil">{{ usuario.name }}</router-link></li>
         <li v-if="usuario"><a v-on:click="sair()">Sair</a></li>
       </NavBar>
     </header>
