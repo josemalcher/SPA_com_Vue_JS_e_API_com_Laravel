@@ -1,48 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="larawebservice@localhost">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.48">
-    <root id="1">
-      <DefaultCasing>exact</DefaultCasing>
-      <DefaultEngine>InnoDB</DefaultEngine>
-      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
-      <Grants>larawebservice|schema||sail||ALTER|G
-larawebservice|schema||sail||ALTER ROUTINE|G
-larawebservice|schema||sail||CREATE|G
-larawebservice|schema||sail||CREATE ROUTINE|G
-larawebservice|schema||sail||CREATE TEMPORARY TABLES|G
-larawebservice|schema||sail||CREATE VIEW|G
-larawebservice|schema||sail||DELETE|G
-larawebservice|schema||sail||DROP|G
-larawebservice|schema||sail||EVENT|G
-larawebservice|schema||sail||EXECUTE|G
-larawebservice|schema||sail||INDEX|G
-larawebservice|schema||sail||INSERT|G
-larawebservice|schema||sail||LOCK TABLES|G
-larawebservice|schema||sail||REFERENCES|G
-larawebservice|schema||sail||SELECT|G
-larawebservice|schema||sail||SHOW VIEW|G
-larawebservice|schema||sail||TRIGGER|G
-larawebservice|schema||sail||UPDATE|G
-testing%|schema||sail||ALTER|G
-testing%|schema||sail||ALTER ROUTINE|G
-testing%|schema||sail||CREATE|G
-testing%|schema||sail||CREATE ROUTINE|G
-testing%|schema||sail||CREATE TEMPORARY TABLES|G
-testing%|schema||sail||CREATE VIEW|G
-testing%|schema||sail||DELETE|G
-testing%|schema||sail||DROP|G
-testing%|schema||sail||EVENT|G
-testing%|schema||sail||EXECUTE|G
-testing%|schema||sail||INDEX|G
-testing%|schema||sail||INSERT|G
-testing%|schema||sail||LOCK TABLES|G
-testing%|schema||sail||REFERENCES|G
-testing%|schema||sail||SELECT|G
-testing%|schema||sail||SHOW VIEW|G
-testing%|schema||sail||TRIGGER|G
-testing%|schema||sail||UPDATE|G</Grants>
-      <ServerVersion>8.0.32</ServerVersion>
-    </root>
+    <root id="1"/>
     <collation id="2" parent="1" name="armscii8_general_ci">
       <Charset>armscii8</Charset>
       <DefaultForCharset>1</DefaultForCharset>

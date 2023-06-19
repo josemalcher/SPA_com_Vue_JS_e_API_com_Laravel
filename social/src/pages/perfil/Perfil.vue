@@ -11,14 +11,22 @@
 
       <input type="text" placeholder="Nome" v-model="name">
       <input type="text" placeholder="Email" v-model="email">
+
+      <div class="file-field input-field">
+      <div class="btn">
+        <span>Imagem</span>
+        <input type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text">
+      </div>
+    </div>
+
       <input type="password" placeholder="Senha" v-model="password">
       <input type="password" placeholder="Confime sua Senha" v-model="password_confirmation">
-      <button class="btn" v-on:click="cadastro()">Cadastrar</button>
-      <router-link class="btn blue" to="/login">Já Tenho conta!</router-link>
-      <span v-if="errors" class="helper-text red-text" data-error="wrong"
-            data-success="right">{{ errors }}</span>
-    </span>
 
+      <button class="btn blue" v-on:click="perfil()">Atualizar</button>
+    </span>
 
   </SiteTemplate>
 </template>
@@ -38,11 +46,19 @@ export default {
       email: '',
       password: '',
       password_confirmation: '',
-      errors: ''
+      errors: '',
+      usuario: ''
+    }
+  },created() {
+    let usuarioAux = sessionStorage.getItem('user');
+    if (usuarioAux) {
+      this.usuario = JSON.parse(usuarioAux);
+      this.name = this.usuario.name;
+      this.email = this.usuario.email;
     }
   },
   methods:{
-    cadastro() {
+    perfil() {
       axios.post('http://localhost/api/register', {
         name: this.name,
         email: this.email,

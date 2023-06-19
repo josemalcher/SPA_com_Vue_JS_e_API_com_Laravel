@@ -8,6 +8,9 @@
       <PhpSpecSuiteConfiguration>
         <option name="myPath" value="$PROJECT_DIR$/larawebservice" />
       </PhpSpecSuiteConfiguration>
+      <PhpSpecSuiteConfiguration>
+        <option name="myPath" value="$PROJECT_DIR$/larawebservice" />
+      </PhpSpecSuiteConfiguration>
     </suites>
   </component>
 </project>

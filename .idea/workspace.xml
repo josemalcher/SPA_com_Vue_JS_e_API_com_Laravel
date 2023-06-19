@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c08b133c-b6d6-4d3f-b857-1f2a86b84f7b" name="Changes" comment="38. Implementando o Cadastro">
-      <change afterPath="$PROJECT_DIR$/social/src/pages/perfil/Perfil.vue" afterDir="false" />
+    <list default="true" id="c08b133c-b6d6-4d3f-b857-1f2a86b84f7b" name="Changes" comment="39. Tela de Perfil - Parte 1">
+      <change beforePath="$PROJECT_DIR$/.idea/codeception.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeception.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84033ddd-54dd-4154-b767-db09c0bcb6ce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84033ddd-54dd-4154-b767-db09c0bcb6ce.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/src/templates/SiteTemplate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/templates/SiteTemplate.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/larawebservice/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/larawebservice/artisan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/social/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/src/pages/perfil/Perfil.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/pages/perfil/Perfil.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/social/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socialadminlet/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/socialadminlet/build/webpack.dev.conf.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +166,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -214,7 +223,15 @@
       <workItem from="1685371362213" duration="2000" />
       <workItem from="1685545025629" duration="1254000" />
       <workItem from="1685567067287" duration="108000" />
-      <workItem from="1686058895755" duration="4215000" />
+      <workItem from="1686058895755" duration="5031000" />
+      <workItem from="1686223030130" duration="15000" />
+      <workItem from="1686226986500" duration="607000" />
+      <workItem from="1686253367889" duration="1981000" />
+      <workItem from="1686316847762" duration="1786000" />
+      <workItem from="1687122655979" duration="1311000" />
+      <workItem from="1687176064590" duration="185000" />
+      <workItem from="1687176464331" duration="561000" />
+      <workItem from="1687177097064" duration="5087000" />
     </task>
     <task id="LOCAL-00001" summary="16. Componente de detalhe do conteúdo">
       <created>1684505184296</created>
@@ -307,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685305032772</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="39. Tela de Perfil - Parte 1">
+      <created>1686092328840</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686092328840</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +364,8 @@
     <MESSAGE value="36. Preparando o sistema de Login - Parte 1" />
     <MESSAGE value="37. Preparando o sistema de Login - Parte 2" />
     <MESSAGE value="38. Implementando o Cadastro" />
-    <option name="LAST_COMMIT_MESSAGE" value="38. Implementando o Cadastro" />
+    <MESSAGE value="39. Tela de Perfil - Parte 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="39. Tela de Perfil - Parte 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
