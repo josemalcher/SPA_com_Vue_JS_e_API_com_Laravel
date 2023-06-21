@@ -48,7 +48,7 @@ class AuthController extends Controller
             ], 401);
         }
 
-        $token = $user->createToken('UsuarioLogado')->plainTextToken;
+        $token = $user->createToken('UsuarioLogado1')->plainTextToken;
 
         $response = [
             'user' => $user,
@@ -56,6 +56,14 @@ class AuthController extends Controller
         ];
 
         return response($response, 201);
+    }
+
+    public function perfil(Request $request)
+    {
+        $user  = $request->user();
+        $data = $request->all();
+        return $user;
+
     }
     public function logout(Request $request)
     {

@@ -51,6 +51,7 @@ export default {
             this.errors = ``;
 
             sessionStorage.setItem('user', JSON.stringify(response.data.user));
+            sessionStorage.setItem('token', JSON.stringify(response.data.token));
 
             this.$router.push('/');
             return {success: true, token: response.data.token}

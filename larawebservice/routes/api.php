@@ -30,6 +30,14 @@ Route::post('/login', [\App\Http\Controllers\AuthController::class, 'login']);
 //    return $user;
 //});
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+Route::middleware('auth:sanctum')
+    ->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::middleware('auth:sanctum')
+    ->put('/perfil', function (Request $request) {
+        $user  = $request->user();
+        $data = $request->all();
+        return $data;
+    });

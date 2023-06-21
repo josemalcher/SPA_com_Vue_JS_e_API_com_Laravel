@@ -47,7 +47,8 @@ export default {
       password: '',
       password_confirmation: '',
       errors: '',
-      usuario: ''
+      usuario: '',
+      usuarioToken: ''
     }
   },created() {
     let usuarioAux = sessionStorage.getItem('user');
@@ -55,27 +56,36 @@ export default {
       this.usuario = JSON.parse(usuarioAux);
       this.name = this.usuario.name;
       this.email = this.usuario.email;
+      this.usuarioToken = sessionStorage.getItem('token');
     }
+    console.log(this.usuarioToken)
+    console.log(usuarioAux)
   },
   methods:{
     perfil() {
-      axios.post('http://localhost/api/register', {
+      const headers = {
+        'Authorization': 'Bearer '+JSON.parse(this.usuarioToken),
+      };
+      console.log(headers);
+      axios.put('http://localhost/api/perfil', {
         name: this.name,
         email: this.email,
         password: this.password,
         password_confirmation: this.password_confirmation
-      })
+      }, {headers})
         .then(response => {
-          console.log(response)
-          if (response.data.token) {
-            console.log('Cadastro Realizado com SUCESSO!!')
-            this.errors = ``;
-
-            sessionStorage.setItem('user', JSON.stringify(response.data.user));
-
-            this.$router.push('/');
-            // return {success: true, token: response.data.token}
-          }
+          console.log(response.data)
+          // if (response.data.token) {
+          //   console.log(response.data)
+          //
+          //   // console.log('Cadastro Realizado com SUCESSO!!')
+          //   this.errors = ``;
+          //
+          //   // sessionStorage.setItem('user', JSON.stringify(response.data.user));
+          //
+          //   // this.$router.push('/');
+          //   // return {success: true, token: response.data.token}
+          // }
         })
         .catch(e => {
           if (e.response) {
