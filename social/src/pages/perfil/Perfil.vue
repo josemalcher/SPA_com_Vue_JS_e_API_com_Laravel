@@ -50,7 +50,7 @@ export default {
       usuario: '',
       usuarioToken: ''
     }
-  },created() {
+  }, created() {
     let usuarioAux = sessionStorage.getItem('user');
     if (usuarioAux) {
       this.usuario = JSON.parse(usuarioAux);
@@ -61,10 +61,10 @@ export default {
     console.log(this.usuarioToken)
     console.log(usuarioAux)
   },
-  methods:{
+  methods: {
     perfil() {
       const headers = {
-        'Authorization': 'Bearer '+JSON.parse(this.usuarioToken),
+        'Authorization': 'Bearer ' + JSON.parse(this.usuarioToken),
       };
       console.log(headers);
       axios.put('http://localhost/api/perfil', {
@@ -74,7 +74,11 @@ export default {
         password_confirmation: this.password_confirmation
       }, {headers})
         .then(response => {
+          // login com sucesso
           console.log(response.data)
+
+          // loggin não existe
+
           // if (response.data.token) {
           //   console.log(response.data)
           //
