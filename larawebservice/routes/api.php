@@ -36,8 +36,4 @@ Route::middleware('auth:sanctum')
 });
 
 Route::middleware('auth:sanctum')
-    ->put('/perfil', function (Request $request) {
-        $user  = $request->user();
-        $data = $request->all();
-        return $data;
-    });
+    ->put('/perfil', [\App\Http\Controllers\AuthController::class, 'perfil']);

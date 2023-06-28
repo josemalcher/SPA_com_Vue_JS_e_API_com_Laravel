@@ -5,10 +5,9 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Validation\Rule;
+use \Illuminate\Support\Facades\Validator;
 
-/*
- * https://github.com/josemalcher/Api_Rest_com_Laravel_9_na_pratica/blob/master/apibiblia/app/Http/Controllers/AuthController.php
- * */
 class AuthController extends Controller
 {
     public function register(Request $request)
@@ -48,7 +47,7 @@ class AuthController extends Controller
             ], 401);
         }
 
-        $token = $user->createToken('UsuarioLogado1')->plainTextToken;
+        $token = $user->createToken($user->email)->plainTextToken;
 
         $response = [
             'user' => $user,
@@ -61,7 +60,35 @@ class AuthController extends Controller
     public function perfil(Request $request)
     {
         $user  = $request->user();
-        $data = $request->all();
+        // $data = $request->all();
+
+/*        $fields = $request->validate([
+            'name'      => 'required|string',
+            'email'     => 'required|string|unique:users',
+            'password'  => 'required|string|confirmed'
+        ]);
+
+        if ($fields->fails()) {
+            return response([
+                'message' => 'ERROR!'
+            ], 401);
+        }*/
+        $validator = Validator::make($request->all(), [
+            'name'      => 'required|string',
+            'email'     => 'required|string|unique:users',
+            'email'     => ['required','string',Rule::unique('users')->ignore($user->id)],
+            'password'  => 'required|string|confirmed'
+        ]);
+
+        if ($validator->fails()) {
+            return $validator->errors();
+            // return response([
+            // 'message' => 'ERROR!'
+            // ], 401);
+        }
+
+        //$user->token = $user->createToken($user->email)->plainTextToken;
+
         return $user;
 
     }

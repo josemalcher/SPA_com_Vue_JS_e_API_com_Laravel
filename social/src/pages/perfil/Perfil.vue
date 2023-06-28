@@ -51,45 +51,35 @@ export default {
       usuarioToken: ''
     }
   }, created() {
-    let usuarioAux = sessionStorage.getItem('user');
+    const usuarioAux = sessionStorage.getItem('user');
     if (usuarioAux) {
       this.usuario = JSON.parse(usuarioAux);
       this.name = this.usuario.name;
       this.email = this.usuario.email;
       this.usuarioToken = sessionStorage.getItem('token');
     }
-    console.log(this.usuarioToken)
-    console.log(usuarioAux)
   },
   methods: {
     perfil() {
       const headers = {
         'Authorization': 'Bearer ' + JSON.parse(this.usuarioToken),
       };
-      console.log(headers);
       axios.put('http://localhost/api/perfil', {
         name: this.name,
         email: this.email,
         password: this.password,
-        password_confirmation: this.password_confirmation
+        password_confirmation: this.password_confirmation,
+        token: this.usuarioToken,
       }, {headers})
         .then(response => {
           // login com sucesso
-          console.log(response.data)
+          console.log(response.data);
+          if (response.data.token()) {
+          }
 
           // loggin não existe
 
-          // if (response.data.token) {
-          //   console.log(response.data)
-          //
-          //   // console.log('Cadastro Realizado com SUCESSO!!')
-          //   this.errors = ``;
-          //
-          //   // sessionStorage.setItem('user', JSON.stringify(response.data.user));
-          //
-          //   // this.$router.push('/');
-          //   // return {success: true, token: response.data.token}
-          // }
+
         })
         .catch(e => {
           if (e.response) {

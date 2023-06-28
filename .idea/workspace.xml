@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c08b133c-b6d6-4d3f-b857-1f2a86b84f7b" name="Changes" comment="41. Tela de Perfil - Parte 3">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="c08b133c-b6d6-4d3f-b857-1f2a86b84f7b" name="Changes" comment="41. Tela de Perfil - ajustes">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/84033ddd-54dd-4154-b767-db09c0bcb6ce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84033ddd-54dd-4154-b767-db09c0bcb6ce.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/src/pages/cadastro/Cadastro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/pages/cadastro/Cadastro.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/larawebservice/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/larawebservice/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/larawebservice/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/larawebservice/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/social/src/pages/perfil/Perfil.vue" beforeDir="false" afterPath="$PROJECT_DIR$/social/src/pages/perfil/Perfil.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/social/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="José Malcher Jr &lt;contato@josemalcher.net&gt;" />
         <option value="josemalcher &lt;contato@josemalcher.net&gt;" />
       </list>
     </option>
@@ -159,28 +158,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/josemalcher/Documentos/workspaces/SPA_com_Vue_JS_e_API_com_Laravel/larawebservice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "/app/extra/phpstorm/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/josemalcher/Documentos/workspaces/SPA_com_Vue_JS_e_API_com_Laravel/larawebservice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/app/extra/phpstorm/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/larawebservice" />
@@ -231,7 +230,9 @@
       <workItem from="1687177097064" duration="6660000" />
       <workItem from="1687289606309" duration="5554000" />
       <workItem from="1687355000001" duration="7000" />
-      <workItem from="1687868768551" duration="3120000" />
+      <workItem from="1687868768551" duration="4438000" />
+      <workItem from="1687961196514" duration="96000" />
+      <workItem from="1687963558067" duration="6461000" />
     </task>
     <task id="LOCAL-00001" summary="16. Componente de detalhe do conteúdo">
       <created>1684505184296</created>
@@ -338,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687206972998</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="41. Tela de Perfil - ajustes">
+      <option name="closed" value="true" />
+      <created>1687876015283</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687876015283</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +382,8 @@
     <MESSAGE value="38. Implementando o Cadastro" />
     <MESSAGE value="39. Tela de Perfil - Parte 1" />
     <MESSAGE value="41. Tela de Perfil - Parte 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="41. Tela de Perfil - Parte 3" />
+    <MESSAGE value="41. Tela de Perfil - ajustes" />
+    <option name="LAST_COMMIT_MESSAGE" value="41. Tela de Perfil - ajustes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
